@@ -1,0 +1,31 @@
+/*  First CSS stylesheet - linked to html bio */
+
+/* Changing the font, text-colour and background of the website */
+html {
+      font-family: monospace, "Lucida Console", helvetica, ui monospace;
+      color: orange;
+      /* background-image = <HTML background 2.png>#    Add coding side edge */
+      background: #101101
+}
+
+/* Customising the sub-heading "aspiring full-stack developer" */
+h3 {
+}
+
+/* Changing the body of the text so it doesn't touch the edge */
+body {
+        font-size: 1.5em;
+        width: 80%;
+        margin: auto;
+}
+
+ul, li {
+        list-style: circle;
+        /* color:  green, cyan; */
+        -row:3;
+
+}
+
+button:hover {
+    color: orange;
+}
