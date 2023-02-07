@@ -4,23 +4,25 @@
 
 <head>
         <meta charset="UTF-8">
-
         <!-- This is the browser tab title, displays a title in a search engine and suggests a title if bookmarked. -->
         <title>Joshua Carney | CV & Bio</title>
+        <link href = "index.css" rel = "stylesheet" type = "text/css" />
+        
 </head>
 
 <body>
         <!-- The h1 tag is what a search engine browses and produces -->
-        <h1 id= "TopOfPage" align="center">Joshua Carney [Aspiring Full-Stack Developer]</h1>
-    <p style="text-align:center;"><img
+        <h1 id= "top-of-page">Joshua Carney [Aspiring Full-Stack Developer]</h1>
+
+        <!-- style="text-align:center;" -->
+    <div><img id="photo-of-me"
             srcset="images/JC-3.jpg 1491w"
-            align="center"
             sizes="(max-width:200px) 100px, 300px"
             src="images/JC-3.jpg 480w"
             alt="Photo of myself">
-    </p>
+    </div>
         <!-- Subheading hook -->
-        <h3><b><em>Thrill seeker and tech geek...</em></b>an odd combination I know but honesty counts.</h3>
+        <h3><strong><em>Tech enthusiast and thrill seeker...</em></strong><br>an odd combination I know but honesty counts.</h3>
 
         <!-- Bio -->
         <p>Being compassionate with a logical mindset, my ethos is centered around helping others, working with
@@ -51,44 +53,58 @@
 
 
         <!-- Some of my key skills in an unordered list -->
-        <h2>Skills Section</h2>
+        <header><h2>Transferable Skills</h2></header>
 
-        <ul>
-            <li>Leadership</li>
-            <li>Communication</li>
-            <li>Proactive</li>
-            <li>Stock management</li>
-            <li>Training staff</li>
-            <li>Attention-to-detail</li>
-            <li>Organisation</li>
-            <li>Motivation</li>
-            <li>Efficiency</li>
-            <li>Customer service</li>
-        </ul>
+        <div>
+            <ul class="skills-section">
+                <li>Leadership</li>
+                <li>Communication</li>
+                <li>Problem Solving</li>                
+                <li>Improving efficiency</li>
+                <li>Stock management</li>
+                <li>Motivational</li>
+                <li>Training staff</li>
+                <li>Attention-to-detail</li>
+                <li>Organisation</li>
+                <li>Proactive</li>
+            </ul>
+        </div>
 
 
         <!-- List of qualifications and courses -->
-        <h2> Education</h2>
+        <header><h2>Education</h2></header>
 
-        <ul>
-            <li>Software Engineering bootcamp with Hyperion Dev (progress link above)   -  <em>[28/02/2023]</em></li>
-            <li>Python for beginners: Sololearn certificate -    					[18/10/2022]</li>
-            <li>Introduction to Psychology (Yale University) -					 [01/10/2020]</li>
-            <li>Unrestricted, Approved Managers License - MLP1 (Australia) -			 [01/01/2018]</li>
-            <li>BIIAB level 2 Award for Personal Licence Holders - Premises License - 		 [01/03/2015]</li>
-            <li>Full, clean drivers licence -								 [03/05/2012]</li>
-            <li>BTEC National Diploma in Graphic Design (Oxford and Cherwell Valley college) -	 [01/07/2009]</li>
-            <li>BTEC National Certificate in Visual Arts - 						 [01/07/2009]</li>
-            <li>11 GCSE’s between grades A-C including maths, English and science - 		 [20/06/2007]</li>
+        <ul class = "same-line">
+                <li>Software Engineering bootcamp with Hyperion Dev </li>
+                <aside>[28/02/2023]</aside>
+                <li>Python for beginners: Sololearn certificate</li>
+                <aside>[18/10/2022]</aside>
+                <li>Introduction to Psychology (Yale University)</li>
+                <aside>[01/10/2020]</aside>
+                <li>Unrestricted, Approved Managers License - MLP1 (Australia)</li>
+                <aside>[01/01/2018]</aside>
+                <li>BIIAB level 2 Award for Personal Licence Holders - Premises License</li>
+                <aside>[01/03/2015]</aside>
+                <li>Full, clean drivers licence</li>
+                <aside>[03/05/2012]</aside>
+                <li>BTEC National Diploma in Graphic Design (Oxford and Cherwell Valley college)</li>
+                <aside>[01/07/2009]</aside>
+                <li>BTEC National Certificate in Visual Arts</li>
+                <aside>[01/07/2009]</aside>
+                <li>11 GCSEs between grades A-C including maths, English and science</li>
+                <aside>[20/06/2007]</aside>
         </ul>
 
 
         <!-- Previous work history taken from my CV -->
-        <h2> Work experience </h2>
+        <header><h2>Work experience</h2></header>
 
-        <h4> Investor and Asset Trader - <em>March 2020 >>> Present</em> </h4>
-        <h6> Self-employed </h6>
-
+        <div class="same-line">
+            <h4> Investor and Asset Trader </h4>
+            <aside><p><em> March 2020 >>> Present </em></p></aside>
+        </div>
+        
+        <h6>Remote</h6>
         <ul>
             <li>Analysed data from technical charts, macroeconomics and blockchain technologies behind the assets.</li>
             <li>Adapted methods of trading constantly and by using my analytical skills, re-evaluated my thesis of assets
@@ -98,7 +114,15 @@
         </ul>
 
 
-        <h4>Duty Manager - <em> December 2017 >>> April 2018 </em></h4>
+        <div class="same-line">
+            <h4>
+                Duty Manager
+            </h4>
+            <aside>
+                <p><em>December 2017 >>> April 2018</em></p>
+            </aside>
+        </div>
+        
         <h6>Endeavour Tavern, Australia</h6>
 
         <ul>
@@ -108,10 +132,12 @@
             <li>Responsible for end-of-day operations, including cashing up and managing a team of 12 consisting of two departments.</li>
         </ul>
 
+        <div class="same-line">
+            <h4> Lease Holder and Designated Premises Supervisor </h4> 
+            <aside>May 2014 >>> August 2017</aside>
+        </div>
 
-        <h4> Lease Holder and Designated Premises Supervisor - May 2014 >>> August 2017 </h4>
-        <h6> Catherine Wheel </h6>
-
+        <h6> Catherine Wheel, Oxford </h6>
         <ul>
             <li>Organised all aspects of the business: recruitment and training of staff, service guidelines, banking,
                 accounts payable, stock management, delivery checks, cleaning, kitchen, admin, pub teams, events, bands
@@ -119,7 +145,7 @@
         </ul>
 
         <!-- Examples of my programming skills with links to my GitHub -->
-        <h2> Completed Projects </h2>
+        <header><h2> Completed Projects </h2></header>
 
         <h4> Task Management System </h4>
         <p> The user can log in to the system and is presented with a menu which allows them to assign, view or edit tasks.
@@ -132,11 +158,14 @@
         <h4> Product Inventory </h4>
         <p> This project produces various reports based on a companies stock levels and products. The system has
             multiple features which can add new products and place an order to restock the item with the lowest
-            quantity.<br> To see this project in greater detail, view my Product Inventory program on GitHub by
-            <a href="https://github.com/CarneyCreations/product_inventory" target="_blank">clicking here.</a></p>
+            quantity.<br> To see this project in greater detail, view my Product Inventory program on GitHub by clicking below.</p>
+            <a class="projects" href="https://github.com/CarneyCreations/product_inventory" target="_blank">
+                <img src="images/Product Inventory_Restock.png" width="200">
+                <img src="images/Product Inventory_Invoice.png" width="200"></a>
+
 
         <!-- Programs I am working on and my future plans -->
-        <h3>Current and Future Projects</h3>
+        <header><h2>Current and Future Projects</h3></header>
         <p> Already I am in the process of making a program which will save me £200+ each year. It is a capital gains
             tax calculator for cryptocurrency, and it will produce the information required for submitting my self-assessment
             tax return to the HMRC. It does this by reading raw trades from a CSV file and distributes them into
@@ -155,18 +184,20 @@
             of a country, highlighting the differences between your home country and the country selected.</p>
 
         <!-- Contact section with links to my profiles and email -->
-        <h2>Contact Details</h2>
-        <p> To view more of my projects, please check out my <a
-                href="https://github.com/CarneyCreations" target="_blank">GitHub</a> page which I regularly update.</p>
+        <header><h2>Contact Details</h2></header>
 
-        <p> If would like to contact me regarding my work or just want to network, feel free to contact me via my <a
-                href="https://www.linkedin.com/in/joshuapjcarney/" target="_blank">LinkedIn profile.</a></p>
+            <p> If you are an employer and would like to know more, please contact me via email or you can call me on 07780453497. 
+                I am building up a network so please feel free to follow me on LinkedIn and GitHub via the links below.</p>
 
-        <p> Alternatively, if you are an employer and would like more information please contact me via
-        <a href= "mailto:joshcarney@hotmail.co.uk" >email</a> or you can call me on 07780453497.</p>
+
+    <!-- Social media and portfolio links -->
+    <a href="https://github.com/CarneyCreations" target="_blank"><img src="images/GitHub 1.png" alt="GitHub logo" width="50"></a>
+    <a href="https://www.linkedin.com/in/joshuapjcarney/" target="_blank"><img src="images/LinkedIn 1.png" alt="LinkedIn logo" width="50"></a>
+    <a href= "mailto:joshcarney@hotmail.co.uk" ><img src="images/Email 2.png" alt="Email symbol" width="50"></a>
+    
 
         <!-- Button to return to the top of the page -->
-        <h4 align="center"><a href="#TopOfPage"><button>Return to top</button></a></h4>
+        <div id="custom-button"><a href="#top-of-page">Return to top</a></div>
 
 
 </body>
