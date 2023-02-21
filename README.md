@@ -1,4 +1,4 @@
-# personal_webpage
+# Personal Web1.page https://carneycreations.github.io/personal_webpage/
 This is the first webpage I created with HTML and CSS. 
 
 ## Surprises
@@ -12,7 +12,7 @@ I found certain aspects of creating this webpage very challenging.
 * In the Transferable Skills section, I found my biggest challenge - creating a horizontal list which wrapped and where the items didn't overlap.
   * Most of the reason I found this difficult was down to simply not knowing enough about the CSS settings. There were so many options that I found myself overwhelmed. Eventually I worked out how to do it to almost how I had it in mind. My next project introduced me to responsive design and I wish I had learned this before attempting the horizontal list. col-md-3 would have been invaluable to know at that time and would have saved me several hours of research!
 
-https://carneycreations.github.io/personal_webpage/
+I feel like the overall outcome of this project resembles that of a webpage from 15-20 years ago,which makes me chuckle, however I understand I had to start somewhere. Things can only get better!
 
 ## Credits
 Joshua Carney (CarneyCreations)
